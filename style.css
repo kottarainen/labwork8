@@ -4,8 +4,14 @@ margin-bottom: 10px;
 line-height: 1.4285;
 }
 
+.location, .date {
+  font-family: 'Open Sans';
+  font-size: 16px; 
+}
+
 .element_heading {
   color: #0B4DC7;
+  margin: 32px 0px 22px;
 }
 
 .web {
@@ -15,6 +21,11 @@ line-height: 1.4285;
 .element_text {
   padding-left: 30px;
   margin-bottom: 30px;
-  color: grey;
+  color: #778998;
   font-family: 'Open Sans';
+  margin: 0px 0px 20px;
+}
+
+.img {
+  height: auto;
 }
