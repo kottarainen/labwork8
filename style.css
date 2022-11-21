@@ -1,7 +1,15 @@
-.location, .date, .web {
+.element_heading, .location, .date, .web {
 padding-left: 30px;
 margin-bottom: 10px;
 line-height: 1.4285;
+}
+
+.element_heading {
+  color: #0B4DC7;
+}
+
+.web {
+  color: #269BF0;
 }
 
 .element_text {
