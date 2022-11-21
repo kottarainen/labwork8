@@ -14,8 +14,11 @@ line-height: 1.4285;
   margin: 32px 0px 22px;
 }
 
-.web {
+a:link{
   color: #269BF0;
+}
+a:active {
+  color: green;
 }
 
 .element_text {
@@ -24,8 +27,4 @@ line-height: 1.4285;
   color: #778998;
   font-family: 'Open Sans';
   margin: 0px 0px 20px;
-}
-
-.img {
-  height: auto;
 }
