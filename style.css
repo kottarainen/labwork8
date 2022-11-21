@@ -1,0 +1,12 @@
+.location, .date, .web {
+padding-left: 30px;
+margin-bottom: 10px;
+line-height: 1.4285;
+}
+
+.element_text {
+  padding-left: 30px;
+  margin-bottom: 30px;
+  color: grey;
+  font-family: 'Open Sans';
+}
