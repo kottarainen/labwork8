@@ -14,10 +14,10 @@ line-height: 1.4285;
   margin: 32px 0px 22px;
 }
 
-a:link{
+a:link {
   color: #269BF0;
 }
-a:active {
+a:hover {
   color: green;
 }
 
