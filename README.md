@@ -18,7 +18,7 @@ formatted as (un)ordered list.
 ## Complementary task
 
 Create links to:
-- [x]Website address. 
+- [x] Website address. 
 - [x] Use CSS to change
 color of website link whenever it was pressed on it.
 - [x] Email address.
