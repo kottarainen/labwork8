@@ -156,6 +156,17 @@ body {
   content: none;
 }
 
+/* main part */
+
+.img {
+  max-width: 150px;
+}
+
+
+
+
+
+
 /* footer */
 
 /* https://vilniustech.lt/media/images/new/ico/fb-ico.svg */
