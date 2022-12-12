@@ -134,6 +134,45 @@ body {
 
 /* main */
 
+.element_heading, .location, .date, .web {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    line-height: 1.4285;
+    }
+    
+.location, .date {
+  font-family: 'Open Sans';
+  font-size: 16px; 
+}
+    
+.element_heading {
+  color: #0B4DC7;
+  margin: 32px 0px 22px;
+}
+a:link{
+  color: #269BF0;
+}
+a:active {
+  color: green;
+}
+    
+.element_text {
+  padding-left: 30px;
+  margin-bottom: 30px;
+  color: #778998;
+  font-family: 'Open Sans';
+  margin: 0px 0px 20px;
+}
+.img {
+  max-width: 150px;
+}  
+
+
+
+
+
+
+
 .path {
   padding: 20px 0 16px 0;
 }
@@ -156,11 +195,8 @@ body {
   content: none;
 }
 
-/* main part */
 
-.img {
-  max-width: 150px;
-}
+
 
 
 
