@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="print" href="print.css" />
     <title>Laboratory work 8</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+      </style>
   </head>
   <body>
     <!--Maryia Shpakouskaya-->
@@ -13,10 +17,11 @@
       <header class="header">
         <div class="header-layers">
           <div class="top-layer">
+            <div class="top-image">
             <img
               src="https://vilniustech.lt/images/3733/186/9/16_1/VilniusTech.png"
               class="logo"
-            />
+            /></div>
             <div class="controls">
               <a href="##" class="control search-icon"></a>
               <a href="##" class="control location-icon"></a>
@@ -70,14 +75,12 @@
           <a href="##" class="path-link">Events</a>
           <a href="##" class="path-link">Hackathon "Rethinking Hardware"</a>
         </div>
-        </div>
-        <h1 class="element_heading">Hackathon "Rethinking Hardware"</h1>
+            <h1 class="element_heading">Hackathon "Rethinking Hardware"</h1>
         <div class="date">2022-12-09 18:00</div>
         <div class="location">VILNIUS TECH "LinkMenu fabrikas"</div>
         <div class="web">
           <a href="https://bridgio.eu/hardwarehack2022"
-            >https://bridgio.eu/hardwarehack2022</a
-          >
+            >https://bridgio.eu/hardwarehack2022</a>
         </div>
         <br />
         <div class="element_text">
@@ -102,7 +105,9 @@
           The hackathon prize pool is worth 5000 EUR.
           <br />
         </div>
-        <img src="img/hackathon_image.jpg" alt="hackathon image" />
+        <div class="image">
+          <img src="img/hackathon_image.jpg" alt="hackathon image" />
+        </div>
 
         <br />
         <table>
@@ -122,6 +127,7 @@
             <td>Lorem ipsum</td>
           </tr>
         </table>
+        <br>
         <ul>
           <li>Lorem ipsum</li>
           <li>Lorem ipsum</li>
@@ -152,9 +158,65 @@
           src="https://www.youtube.com/watch?v=xoypHuW2FCk&t=2s"
           title="Youtube video"
         >
-        </iframe> 
+        </iframe>
+      <!--print-->
       </main>
-      <footer class="footer"></footer>
+      
+        </div>
+        <br />
+        <footer class="footer">
+          <div class="wrapper">
+            <div class="left-block">
+              <ul class="footer-nav">
+                <li>
+                <a href="https://vilniustech.lt/about-university/data-protection-policy/297352" title="Privacy policy">
+                Privacy policy
+                </a></li>
+                <li>
+                <a href="https://vilniustech.lt/contacts/6158" title="Contacts">
+                Contacts
+                </a></li>
+                </ul>
+                <div class="contacts" >
+                  <div >Vilnius Gediminas Technical University<br>
+                  Saulėtekio al. 11, LT-10223 Vilnius<br>
+                  For international students: +370 5 274 5026,<span style="font-family: Arial, sans-serif;"> </span><a href="mailto:tsc@vilniustech.lt" title="tsc@vgtu.lt">tsc@vilniustech.lt</a><br>
+                  For general information: +370 5 274 5030,&nbsp;<a href="mailto:vilniustech@vilniustech.lt">vilniustech@vilniustech.lt</a><br>
+                  Fax +370 5 270 0112<br>
+                  &nbsp;</div>
+                  <div >Legal entity code 111950243,<br>
+                  VAT payer code LT119502413.</div>
+                  </div>
+                  
+            </div>
+            <div class="right-block">
+              <ul class="social-list">
+                <li>
+                <a href=" https://www.facebook.com/vgtuuniversity" class=" control facebook"></a>
+                </li>
+                <li>
+                <a href="https://www.youtube.com/watch?v=KbtS_pm-mqs" class=" control youtube"></a>
+                </li>
+                <li>
+                <a href="https://www.linkedin.com/edu/vilnius-gediminas-technical-university-14844" class="control linkedin"></a>
+                </li>
+                <li>
+                <a href="https://www.instagram.com/vgtu_university/"  class=" control instagram"></a>
+                </li>
+              </ul>
+              <div class="eSolution hide" >
+                  e-solution
+                  <a href="http://www.mediapark.lt" target="_blank" title="Mediapark">
+                  Mediapark
+                  </a>
+              </div>
+            </div>
+
+
+
+
+      </footer>
+    </div>
     
   </body>
 </html>
