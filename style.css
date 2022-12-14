@@ -216,7 +216,7 @@ a:link {
   color: #269bf0;
 }
 
-a:visited {
+.web a:visited {
   text-decoration: none;
   color: #269bf0;
 }
